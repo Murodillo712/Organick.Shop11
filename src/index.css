@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+@import "tailwindcss";
+
+
+.nok {
+    font-family: Yellowtail, sans-serif;
+}
+
+h1 {
+    color: #274C5B;
+
+}
+
+.l {
+    font-family: sans-serif;
+}
+
+.m {
+    color: white;
+    font-family: Roboto;
+}
+
+.n {
+    color: #274C5B;
+    font-family: Roboto;
+    font-weight: 600;
+
+}
+
+.box {
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.boxs {
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.boxs:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(254, 253, 253);
+    border-radius: 20px;
+}
+
+.boxx {
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.boxx:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
