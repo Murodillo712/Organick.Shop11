@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import ProductCard from "./ProductCard";
-import Footer from "./footer.jsx";
+import Footer from "./Footer.jsx";
 
 const ProductSingle = () => {
     const { id } = useParams();
