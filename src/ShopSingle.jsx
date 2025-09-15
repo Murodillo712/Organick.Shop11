@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import products from './Products';
 import ProductCard from './ProductCard';
-import Footer from './footer';
+import Footer from './Footer';
 
 const ShopSingle = () => {
     const { id } = useParams();
