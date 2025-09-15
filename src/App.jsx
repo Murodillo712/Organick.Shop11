@@ -21,7 +21,7 @@ import pamldori from "../public/pamldori.png";
 import mosh from "../public/mosh.png";
 import yongoq from "../public/yongoq.png";
 import tuxum from "../public/tuxum.png";
-import non from "../public/non2.png";
+import mak from "../public/non2.png"
 import kitob from "../public/kitob.png";
 import shak from "../public/shkland.jpg";
 import barg from "../public/barg.png";
@@ -30,6 +30,8 @@ import baqilajon from "../public/baqilajon.png";
 import piyoz from "../public/piyoz.png";
 import karam1 from "../public/karam1.png";
 import NewsCard from "./NewsCard";
+import barg12 from "../public/barg12.png"
+import tomato from "../public/tamato.png"
 
 export default function App() {
   const products = [
@@ -40,7 +42,7 @@ export default function App() {
     { label: "Health", image: mosh, name: "Mung Bean", oldPrice: 20.0, price: 11.0 },
     { label: "Nuts", image: yongoq, name: "Brown Hazelnut", oldPrice: 20.0, price: 12.0 },
     { label: "Fresh", image: tuxum, name: "Eggs", oldPrice: 20.0, price: 17.0 },
-    { label: "Fresh", imag: non, name: "Zelco Suji Elaichi Rusk", oldPrice: 20.0, price: 15.0 },
+    { label: "Fresh", imag: mak, name: "Zelco Suji Elaichi Rusk", oldPrice: 20.0, price: 15.0 },
   ];
   const rit = [
     { label: "Vegetable", image: gulkaram, name: "Calabrese Broccoli", oldPrice: 20.0, price: 13.0 },
@@ -302,7 +304,7 @@ export default function App() {
       </section>
       <div className="bg-[#eef7f2] py-30">
         <div className="max-w-7xl h-[40vh] mx-auto ">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className=" oi grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { img: kitob, label: "Organic Juice" },
               { img: barg, label: "Organic Food" },
@@ -334,7 +336,7 @@ export default function App() {
             <div className="text-left">
               <p className="nok text-[#7EB693] italic text-lg">News</p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#274C5B]">
-                Discover weekly content about organic food, & more
+                Discover weekly content about <br /> organic food, & more
               </h2>
             </div>
 
@@ -349,16 +351,16 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex justify-center">
               <NewsCard
-                image={caram}
+                image={barg12}
                 date="25 Nov"
-                title="The Benefits of Vitamin D & How to Get It"
+                title="Our Favourite Summertime Tommeto"
                 excerpt="Simply dummy text of the printing and typesetting industry. Lorem Ipsum."
               />
             </div>
 
             <div className="flex justify-center">
               <NewsCard
-                image={pamldori}
+                image={tomato}
                 date="25 Nov"
                 title="Our Favourite Summertime Tommeto"
                 excerpt="Simply dummy text of the printing and typesetting industry. Lorem Ipsum."

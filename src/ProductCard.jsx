@@ -1,8 +1,8 @@
 export default function ProductCard({ label, image, name, oldPrice, price }) {
     return (
-        <div className="bg-gray-100 box rounded-md  p-4 w-full max-w-xs">
+        <div className="bg-gray-100 rounded-md  p-4 w-full max-w-xs">
             <div className="relative w[400px] bg-amber-50">
-                <img src={image} alt={name} className=" overflow-hidden border-amber-50 rounded-md  w-[800px] h-48 object-cover" />
+                <img src={image} alt={name} className=" boxs overflow-hidden border-amber-50 rounded-md  w-[800px] h-48 object-cover" />
                 <span className="absolute top-2 left-2 bg-[#274C5B] text-white text-xs px-2 py-1 rounded">{label}</span>
             </div>
             <h3 className="mt-4 font-semibold text-gray-700">{name}</h3>

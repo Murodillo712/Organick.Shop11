@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function NewsCard({ image, date = "25 Nov", title, excerpt }) {
+export default function NewsCard({ image, date = "25  Nov", title, excerpt }) {
     return (
-        <div className="relative w-full max-w-md">
+        <div className="relative w-full max-w-[500px]">
             <div className="relative rounded-xl overflow-hidden shadow-sm">
-                <img src={image} alt={title} className="w-full h-48 object-cover" />
-                <div className="absolute top-3 left-3 bg-white text-xs px-3 py-1 rounded-full shadow">
+                <img src={image} alt={title} className="w-[600px] h-[40vh] object-cover" />
+                <div className="absolute top-5 left-3 bg-white text-xs w-[50px] h-[50px] pt-3 pl-3 pr-1 rounded-full shadow">
                     {date}
                 </div>
             </div>
