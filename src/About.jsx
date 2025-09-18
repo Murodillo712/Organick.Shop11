@@ -27,6 +27,7 @@ const About = () => {
     return (
         <>
             <section className="w-full h-[40vh]  ">
+                <img src="/Banner.png" alt="" />
                 <div
                     className=" [100%] h-[40vh] inset-0 bg-cover bg-center"
                     style={{ backgroundImage: `url(${Banner})` }}
